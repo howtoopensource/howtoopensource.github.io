@@ -650,3 +650,7 @@ header {
 li {
     color: #959094
 }
+
+html {
+    overflow-x: hidden;
+}
