@@ -1,0 +1,632 @@
+<body data-spy="scroll" data-target="#navbar" data-offset="30">
+
+    <!-- Nav Menu -->
+
+    <div class="nav-menu fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                        <a class="navbar-brand" href="/">
+                            HowToOpenSource.dev
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
+                                class="navbar-toggler-icon"></span> </button>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span
+                                            class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#praise">PRAISE</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#contents">CONTENTS</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#pricing">PRICING</a> </li>
+                                <!--
+
+                                <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
+
+                                -->
+                                <li class="nav-item"><a href="https://howtoopensource.gumroad.com/l/contributor_secrets"
+                                        class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Buy</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="bg-gradient" id="home">
+        <!--
+            <div class="container mt-5">
+                <h1>How to Open Source</h1>
+                <p class="tagline">You belong in open source</p>
+            </div>
+        -->
+        <a href="https://howtoopensource.gumroad.com/l/contributor_secrets">
+            <div class="img-holder mt-3"><img src="images/mockup-standing.png"
+                    alt="How to open Source: Learn the secrets of successful contributors - book cover"
+                    class="img-fluid">
+            </div>
+        </a>
+    </header>
+
+    <div class="row">
+        <div class="container text-center">
+            <div class="card-body col-sm-3 mx-auto">
+                <a href="https://howtoopensource.gumroad.com/l/contributor_secrets"
+                    class="btn btn-primary btn-lg btn-block">Buy</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="praise">
+        <div class="container">
+            <div class="section-title">
+                <small>Critical Acclaim</small>
+                <h3>What people are saying about "How to Open Source"</h3>
+            </div>
+
+            <div class="testimonials owl-carousel">
+                <div class="testimonials-single">
+                    <img src="images/nateberkopec.jpg" alt="Nate" class="client-img" loading="lazy">
+                    <blockquote class="blockquote">Richard is a rare voice in the open source community: skilled and
+                        experienced, but also empathetic, caring and welcoming. If you're venturing into the open-source
+                        bazaar, let Richard be your guide.</blockquote>
+                    <h5 class="mt-4 mb-2">Nate Berkopec</h5>
+                    <p class="text-primary">Author of The Complete Guide to Rails Performance and co-maintainer of Puma
+                    </p>
+                </div>
+                <div class="testimonials-single">
+                    <img src="images/anna.jpg" alt="Anna" class="client-img" loading="lazy">
+                    <blockquote class="blockquote">Richard does an excellent job of balancing the why of contributing to
+                        open source, with the how. This book will help you overcome common challenges folks face when
+                        navigating open source projects. If you find yourself on the other side of the table in the
+                        future, it will serve as a guide for how to make your project more welcoming to others. This
+                        book may be intended for those who already know how to code but is a useful read for anyone with
+                        a keen interest in open source.</blockquote>
+                    <h5 class="mt-4 mb-2">Anna Tumadóttir</h5>
+                    <p class="text-primary">Chief Operating Officer at Creative Commons</p>
+                </div>
+                <div class="testimonials-single">
+                    <img src="images/aaron.png" alt="Aaron" class="client-img" loading="lazy">
+                    <blockquote class="blockquote">How To Open Source provides practical, real world examples of getting
+                        started in Open Source. This book is a must read for anyone that wants to get started in the
+                        open source world.</blockquote>
+                    <h5 class="mt-4 mb-2">Aaron Patterson</h5>
+                    <p class="text-primary">Ruby core contributor</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+    <div class="section light-bg" id="contents">
+        <div class="container">
+            <div class="section-title">
+                <small>HIGHLIGHTS</small>
+                <h3>Start contributing</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-lock gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Unlock your potential</h4>
+                                    <p class="card-text">Practical tips to break down the barriers preventing you from
+                                        contributing to open source</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Actionable advice</h4>
+                                    <p class="card-text">
+                                        Painless guides for having an impact in comon open source tasks: Issues,
+                                        documentation, pull requests, and more.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Sustainable</h4>
+                                    <p class="card-text">
+                                        Set yourself up for long term contribution success to maximize your impact.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- // end .section -->
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="box-icon"><span class="ti-heart gradient-fill ti-3x"></span></div>
+                    <h2 id="features">Less fear, more joy</h2>
+                    <p class="mb-4">Contributing to open source can be scary, but it doesn't have to be. Learn from real
+                        life case studies of contributors to find out how.</p>
+                    <a href="https://howtoopensource.gumroad.com/l/contributor_secrets" class="btn btn-primary">Read
+                        more</a>
+                </div>
+            </div>
+            <div class="perspective-phone">
+                <img src="images/sustain.png" alt="perspective phone" class="img-fluid" loading="lazy">
+            </div>
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+    <div class="section light-bg">
+        <div class="container">
+            <div class="section-title">
+                <small>FEATURES</small>
+                <h3>What's in the book?</h3>
+            </div>
+
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#content">Contents</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#frameworks">Frameworks</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#cheatsheets">Cheatsheets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#author">Author</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#messages">TODO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#livechat">TODO</a>
+                </li> -->
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="content">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div>
+                            <h2>Everything you need to get started</h2>
+                            <p class="lead">Start contributing, build actionable skills, and create sustainable habits.
+                            </p>
+                            <p>What to start contributing but feel like you're stuck? Think you don't know know enough
+                                to help? Worried about being exposed as some programmer fraud? Tried to contribute
+                                before but got nowhere?</p>
+                            <p>The good news is that you're not alone. Many developers face these barriers. Together
+                                we'll face the fear and explore practical methods to overcome the most common
+                                contribution problems</p>
+                            </p>
+                            <p>Confused about what to do next? This book lays out clear and
+                                actionable steps that anyone can take to start contributing to any open source project.
+                                You'll find contribution stories and real-world examples of open source contributions
+                                ranging from reproducing bugs and responding to issues, to updating documentation (even
+                                for code you didn't write), and getting your first commit merged in a pull request.
+                            </p>
+                            <p>Did you already get a commit merged but then lost steam?
+                                Most contributors leave a project after one commit. Even successful
+                                contributors need help creating a contribution practice and building habits that work
+                                with their lifestyle. Beyond contributing superficial changes, developers who follow
+                                this guide will walk away ready to make an impact and achieve their contribution
+                                goals.
+                            </p>
+                            <p>See the <a href="https://howtoopensource.gumroad.com/l/contributor_secrets">Table of
+                                    contents</a> for more details.</p>
+                        </div>
+
+                        <a href="https://howtoopensource.gumroad.com/l/contributor_secrets">
+                            <img src="images/toc-split.png" alt="graphic"
+                                class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="frameworks">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div>
+                            <h2>
+                                Strong foundations
+                            </h2>
+                            <p class="lead">Go beyond simple "how to" tasks to understand WHY contributors are
+                                successful.
+                            </p>
+                            <p>
+                                Are you tired of tutorials that tell you what to do, but not why? "How to Open Source"
+                                breaks down complicated concepts into managable frameworks.
+                            </p>
+                            <p>
+                                For example, every open source contribution consists of four parts:
+                            </p>
+                            <ul>
+                                <li>Context building</li>
+                                <li>Opportunity finding</li>
+                                <li>Implementation</li>
+                                <li>Looping</li>
+                            </ul>
+                            <p>Together these actions make up the COIL acronym. In this book you'll learn how to use
+                                COIL and other frameworks to break
+                                down complicated tasks into managable pieces. When you're done
+                                with this book you'll be able to make your contribution ideas into reality.
+                            </p>
+                        </div>
+
+                        <a href="https://howtoopensource.gumroad.com/l/contributor_secrets">
+                            <img src="images/coil.png" alt="graphic"
+                                class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="cheatsheets">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div>
+                            <h2>Takeaways TOGO</h2>
+                            <p class="lead">Optimized for learning and reference.
+                            </p>
+                            <p>
+                                Do you love reading real life stories and examples, but find it remember the important
+                                details later when you need them?
+                                "How to Open Source" comes with reference-ready cheatsheets to help you jog your memory
+                                and make sure you don't forget any crucial steps.
+                            </p>
+                            <p>
+                                Whether you're a brand new to open source or you're a seasoned contributor, there's
+                                something for
+                                everone to help maximize your impact.
+                            </p>
+                            <p>Cheatsheets included for sections on:</p>
+                            <ul>
+                                <li>Becoming familiar with an open source project and identifying contribution
+                                    opportunities.</li>
+                                <li>Responding to issues and bug reports on any open source repository.</li>
+                                <li>Writing A+ documentation, even for code you didn't write.</li>
+                                <li>Everything you need to know about the pull request process to maximize mergability.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <a href="https://howtoopensource.gumroad.com/l/contributor_secrets">
+                            <img src="images/cheatsheets.png" alt="graphic"
+                                class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="author">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div>
+                            <h2>The Author</h2>
+                            <p class="lead">Richard Schneeman, O'Reilly Author & creator of CodeTriage
+                            </p>
+                            <p>
+                                "I wrote the book I wish someone had given me 10 years ago when I got started
+                                contributing"
+                            </p>
+                            <p>Richard has spent the last half-decade researching how to bridge the gap between projects
+                                that
+                                want contributors and people that want to contribute. He has conducted interviews,
+                                paired
+                                with developers, and made hundreds of personal contributions. He is most known for
+                                helping
+                                sixty-thousand developers contribute to open source through his platform, CodeTriage.
+                            </p>
+                            <p>
+                                He is a maintainer of libraries with over
+                                1.9+ billion downloads. He currently helps maintain the Puma webserver, a high
+                                performance threaded webserver in Ruby. He contributes to high profile projects
+                                including the Ruby language and created several successful open source projects such as
+                                derailed benchmarks with over 2.7 thousand stars on github. In addition to Ruby, Richard
+                                enjoys writing Rust and "any programming language that will get the job done".
+                            </p>
+
+                            <p>
+                                Richard lives in Austin, Texas with his partner, two kids, and two dogs.
+                            </p>
+                        </div>
+                        <img src="images/schneems.png" alt="graphic"
+                            class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // end .section -->
+
+        <div class="section" id="pricing">
+            <div class="container">
+                <div class="section-title">
+                    <h3>Pricing</h3>
+                </div>
+
+                <div class="card-deck">
+                    <div class="card pricing">
+                        <div class="card-head">
+                            <small class="text-primary">PERSONAL</small>
+                            <span class="price">$39</span>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <div class="list-group-item">1 DRM free EPUB</div>
+                            <div class="list-group-item">1 DRM free PDF</div>
+
+                            <div class="list-group-item"><del>Donate 1 copy</del></div>
+                            <div class="list-group-item"><del>100,000 club</del></div>
+                        </ul>
+                        <div class="card-body">
+                            <a href="https://howtoopensource.gumroad.com/l/contributor_secrets"
+                                class="btn btn-primary btn-lg btn-block">Buy</a>
+                        </div>
+                    </div>
+                    <div class="card pricing popular">
+                        <div class="card-head">
+                            <small class="text-primary">Giving Forwards</small>
+                            <span class="price">$78</span>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <div class="list-group-item">1 DRM free EPUB</div>
+                            <div class="list-group-item">1 DRM free PDF</div>
+                            <div class="list-group-item">Donate 1 copy</div>
+                            <div class="list-group-item"><del>100,000 club</del></div>
+                        </ul>
+                        <div class="card-body">
+                            <a href="https://howtoopensource.gumroad.com/l/contributor_secrets"
+                                class="btn btn-primary btn-lg btn-block">Buy</a>
+                        </div>
+                    </div>
+                    <div class="card pricing">
+                        <div class="card-head">
+                            <small class="text-primary">Enterprise</small>
+                            <span class="price">$156</span>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <div class="list-group-item">1 DRM free EPUB</div>
+                            <div class="list-group-item">1 DRM free PDF</div>
+                            <div class="list-group-item">Donate 1 copy</div>
+                            <div class="list-group-item">100,000 club</div>
+                        </ul>
+                        <div class="card-body">
+                            <a href="https://howtoopensource.gumroad.com/l/contributor_secrets"
+                                class="btn btn-primary btn-lg btn-block">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- // end .pricing -->
+
+            </div>
+        </div>
+        <!-- // end .section -->
+        <!--
+
+    <div class="section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/dualphone.png" alt="dual phone" class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <div class="box-icon"><span class="ti-rocket gradient-fill ti-3x"></span></div>
+                        <h2>Launch your App</h2>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel
+                            exercitationem eveniet vero maxime ratione </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    -->
+        <!-- // end .section -->
+
+        <!--
+    <div class="section light-bg">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 d-flex align-items-center">
+                    <ul class="list-unstyled ui-steps">
+                        <li class="media">
+                            <div class="circle-icon mr-4">1</div>
+                            <div class="media-body">
+                                <h5>Create an Account</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                    pellentesque pretium obcaecati vel exercitationem </p>
+                            </div>
+                        </li>
+                        <li class="media my-4">
+                            <div class="circle-icon mr-4">2</div>
+                            <div class="media-body">
+                                <h5>Share with friends</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                    pellentesque pretium obcaecati vel exercitationem eveniet</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-icon mr-4">3</div>
+                            <div class="media-body">
+                                <h5>Enjoy your life</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu
+                                    pellentesque pretium obcaecati vel exercitationem </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/iphonex.png" alt="iphone" class="img-fluid">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    -->
+        <!-- // end .section -->
+
+
+        <!--
+    <div class="section light-bg" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <small>GALLERY</small>
+                <h3>App Screenshots</h3>
+            </div>
+
+            <div class="img-gallery owl-carousel owl-theme">
+                <img src="images/screen1.jpg" alt="image">
+                <img src="images/screen2.jpg" alt="image">
+                <img src="images/screen3.jpg" alt="image">
+                <img src="images/screen1.jpg" alt="image">
+            </div>
+
+        </div>
+
+    </div>
+    -->
+        <!-- // end .section -->
+
+        <!--
+
+    <div class="section pt-0">
+        <div class="container">
+            <div class="section-title">
+                <small>FAQ</small>
+                <h3>Frequently Asked Questions</h3>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <h4 class="mb-3">Can I try before I buy?</h4>
+                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum,
+                        urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
+                        Vestibulum sit amet mattis ante. </p>
+                    <h4 class="mb-3">What payment methods do you accept?</h4>
+                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum,
+                        urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
+                        Vestibulum sit amet mattis ante. </p>
+
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">Can I change my plan later?</h4>
+                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum,
+                        urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
+                        Vestibulum sit amet mattis ante. </p>
+                    <h4 class="mb-3">Do you have a contract?</h4>
+                    <p class="light-font mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum,
+                        urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien.
+                        Vestibulum sit amet mattis ante. </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+-->
+        <!-- // end .section -->
+
+        <div class="section bg-gradient">
+            <div class="container">
+                <div class="call-to-action">
+
+                    <div class="box-icon"><span class="ti-bolt gradient-fill ti-3x"></span></div>
+                    <h2>Read anywhere</h2>
+                    <p class="tagline">With DRM free content, licensed under creative commons (CC BY-NC-SA 4.0), this
+                        book
+                        will go anywhere your open source journey takes you.
+                    </p>
+                    <div class="my-4">
+                        <a href="https://howtoopensource.gumroad.com/l/contributor_secrets"
+                            class="btn btn-light">Buy</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- // end .section -->
+
+        <div class="light-bg py-5" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-center text-lg-left">
+                        <!--
+
+                    <p class="mb-2"> <span class="ti-location-pin mr-2"></span> 1485 Pacific St, Brooklyn, NY 11216 USA
+                    </p>
+                    <div class=" d-block d-sm-inline-block">
+                        <p class="mb-2">
+                            <span class="ti-email mr-2"></span> <a class="mr-4"
+                                href="mailto:support@mobileapp.com">support@mobileapp.com</a>
+                        </p>
+                    </div>
+                    <div class="d-block d-sm-inline-block">
+                        <p class="mb-0">
+                            <span class="ti-headphone-alt mr-2"></span> <a href="tel:51836362800">518-3636-2800</a>
+                        </p>
+                    </div>
+
+                    -->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="social-icons">
+                            <!-- <a href="#"><span class="ti-facebook"></span></a> -->
+                            <!-- <a href="https://twitter.com/schneems"><span class="ti-twitter-alt"></span></a> -->
+                            <!-- <a href="#"><span class="ti-instagram"></span></a> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- // end .section -->
+        <footer class="my-5 text-center">
+            <p class="mb-2"><small>© 2022 RICHARD SCHNEEMAN</small></p>
+
+            <!--
+
+            <small>
+                <a href="#" class="m-2">PRESS</a>
+                <a href="#" class="m-2">TERMS</a>
+                <a href="#" class="m-2">PRIVACY</a>
+            </small>
+
+            -->
+        </footer>
+
+        <!-- jQuery and Bootstrap -->
+        <script src="js/jquery-3.2.1.min.js" defer></script>
+        <script src="js/bootstrap.bundle.min.js" defer></script>
+        <!-- Plugins JS -->
+        <script src="js/owl.carousel.min.js" defer></script>
+        <!-- Custom JS -->
+        <script src="js/script.js" defer></script>
+
+</body>
