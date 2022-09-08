@@ -82,11 +82,16 @@ h5 {
 
 p {
     color: #373f45;
+    font-size:  18px;
 }
 
 p.lead {
     color: #e38cb7;
     margin-bottom: 2rem;
+}
+
+li{
+    font-size: 18px
 }
 
 .text-primary {
